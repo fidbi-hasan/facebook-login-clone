@@ -1,0 +1,37 @@
+.bottom-section {
+  background-color: white;
+  padding: 30px 150px;
+}
+
+.languages a,
+.other-menus a,
+.copyright {
+  text-decoration: none;
+  font-size: 12px;
+  color: gray;
+  margin-right: 5px;
+}
+
+.other-menus a {
+  margin-right: 10px;
+}
+
+.languages a:hover,
+.other-menus a:hover {
+  text-decoration: underline;
+}
+
+.languages button {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.line {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  margin: 10px 0; 
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 11px;
+}

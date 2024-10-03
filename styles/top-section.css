@@ -1,0 +1,144 @@
+
+.top-section {
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: 80px 80px 150px 80px;
+}
+
+@media (max-width: 900px) {
+  .top-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .box-left {
+    margin: 40px 0 60px 0;
+    width: 400px !important;
+  }
+
+  .facebook-logo {
+    text-align: center;
+  }
+
+  .facebook-tagline {
+    font-size: 26px !important;
+    text-align: center;
+  }
+}
+
+.left-section,
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-left {
+  height: 230px;
+  width: 500px;
+}
+
+.facebook-logo {
+  color: rgb(8, 102, 255);
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.facebook-tagline {
+  font-size: 28px;
+}
+
+.box-right {
+  width: 360px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.email-or-phone,
+.password {
+  font-size: 18px;
+  height: 45px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  padding: 2px 12px;
+  margin-bottom: 12px;
+}
+
+.email-or-phone:focus,
+.password:focus {
+  outline: 1px solid rgb(8, 102, 255);
+  outline-offset: -1;
+}
+
+.login-button,
+.create-account-button {
+  background-color: rgb(8, 102, 255);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 10px 0;
+  margin-top: 6px;
+  cursor: pointer;
+
+  transition: opacity 0.2s;
+}
+
+.login-button:hover {
+  opacity: 0.9;
+}
+
+.forgotten-password {
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(8, 102, 255);
+  margin: 20px;
+}
+
+.forgotten-password:hover {
+  text-decoration: underline;
+}
+
+.thin-line {
+  border-bottom: 0.6px solid lightgray;
+  margin-bottom: 20px;
+}
+
+.create-account-button {
+  padding: 16px 20px;
+  font-size: 17px;
+  background-color: rgb(66, 183, 42);
+  color: white;
+  margin: 10px auto;
+}
+
+.create-account-button:hover {
+  background-color: rgb(54, 162, 32);
+}
+
+.create-page-container {
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.create-a-page {
+  text-decoration: none; 
+  color: black; 
+  font-weight: bold;
+}
+
+.create-a-page:hover {
+  text-decoration: underline;
+}
